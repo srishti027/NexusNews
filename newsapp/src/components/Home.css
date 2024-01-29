@@ -1,0 +1,55 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 4rem;
+}
+.head{
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Optional: Round the corners of the thumb */
+  }
+
+.item1{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.item1 img{
+  margin-top: 20px;
+  margin-right: 20px;
+  /* margin-top: 20px;
+    margin-left: 54rem; */
+}
+.content{
+  margin-top: 4rem;
+  font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+    margin-left: 15px;
+    margin-right: 15px;
+   border: 2px solid black;
+
+}
+.container{
+    margin-top: 2px;
+}
